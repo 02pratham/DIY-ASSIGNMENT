@@ -22,6 +22,8 @@ def door(facerec):
         board.digital[pin].write(90)
         time.sleep(5)
         board.digital[pin].write(0)
+        time.sleep(4)
+        led_4.write(1)
         
 
 
