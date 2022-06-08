@@ -121,6 +121,7 @@ with mp_hand.Hands(min_detection_confidence=0.5,
             speak("turning on the room lights...")
             speak("you can control the appliances through hand gestures now")
             j=1
+            var6=1
         ret,image=video.read()
         image=cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         image.flags.writeable=False
